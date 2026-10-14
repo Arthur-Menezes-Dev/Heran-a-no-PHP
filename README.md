@@ -12,7 +12,7 @@ VendedorNivel3.php
 Gerente.php
 
 ## HelloWorld.php
-
+```php
 <?php
    
     include "Funcionario.php";
@@ -109,11 +109,12 @@ Gerente.php
     echo "Salário + Bonificação + Comissão: " . ($gerente->getSalarioBruto() + $gerente->calcularBonificacao()  + $gerente->calcularComissao() . PHP_EOL);
 
 ?>
-
+```
 ##Funcionario.php
 
-
+```php
 <?php
+
 
 
 class Funcionario{
@@ -161,10 +162,12 @@ class Funcionario{
 
 }
 
+?>
+```
 
 ##Vendedor.php
 
-
+```php
 <?php
 
 
@@ -178,10 +181,12 @@ class Vendedor extends Funcionario{
 
 }
 
+?>
+```
 
 ##VendedorNivel1.php
 
-
+```php
 <?php
 
 
@@ -194,10 +199,12 @@ class VendedorNivel1 extends Vendedor{
 
 }
 
+?>
+```
 
 ##VendedorNivel2.php
 
-
+```php
 <?php
 
 
@@ -210,10 +217,12 @@ class VendedorNivel2 extends Vendedor{
 
 }
 
+?>
+```
 
 ##VendedorNivel3.php
 
-
+```php
 <?php
 
 
@@ -227,11 +236,13 @@ class VendedorNivel3 extends Vendedor{
 
 }
 
-
+?>
+```
 
 
 Gerente.php
 
+```php
 <?php
 
 
@@ -248,3 +259,5 @@ class Gerente extends Vendedor{
 
 
 }
+?>
+```
