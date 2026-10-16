@@ -1,4 +1,4 @@
-# Heran-a-no-PHP
+# Herança-no-PHP
 Aula do dia 14/10/2026 Sobre o conceito de herança na Programação Orientada a Objetos usando a linguagem PHP 
 
 São 6 arquivos
@@ -110,7 +110,7 @@ Gerente.php
 
 ?>
 ```
-##Funcionario.php
+## Funcionario.php
 
 ```php
 <?php
@@ -165,7 +165,7 @@ class Funcionario{
 ?>
 ```
 
-##Vendedor.php
+## Vendedor.php
 
 ```php
 <?php
@@ -184,7 +184,7 @@ class Vendedor extends Funcionario{
 ?>
 ```
 
-##VendedorNivel1.php
+## VendedorNivel1.php
 
 ```php
 <?php
@@ -202,7 +202,7 @@ class VendedorNivel1 extends Vendedor{
 ?>
 ```
 
-##VendedorNivel2.php
+## VendedorNivel2.php
 
 ```php
 <?php
@@ -220,7 +220,7 @@ class VendedorNivel2 extends Vendedor{
 ?>
 ```
 
-##VendedorNivel3.php
+## VendedorNivel3.php
 
 ```php
 <?php
@@ -240,7 +240,7 @@ class VendedorNivel3 extends Vendedor{
 ```
 
 
-Gerente.php
+## Gerente.php
 
 ```php
 <?php
